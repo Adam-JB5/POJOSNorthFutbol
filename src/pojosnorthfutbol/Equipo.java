@@ -6,7 +6,7 @@ public class Equipo {
     private String nombre;
     private String ciudad;
     private String entrenador;
-    private Character grupo;
+    private String grupo;
 
     public Integer getIdEquipo() {
         return idEquipo;
@@ -40,11 +40,11 @@ public class Equipo {
         this.entrenador = entrenador;
     }
 
-    public Character getGrupo() {
+    public String getGrupo() {
         return grupo;
     }
 
-    public void setGrupo(Character grupo) {
+    public void setGrupo(String grupo) {
         this.grupo = grupo;
     }
 

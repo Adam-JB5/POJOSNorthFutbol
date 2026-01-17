@@ -5,7 +5,7 @@ public class Usuario {
     private Integer idUsuario;
     private String nombre;
     private String email;
-    private Character rol;
+    private String rol;
     private String contrasenna;
     private String fotoPerfil;
 
@@ -33,11 +33,11 @@ public class Usuario {
         this.email = email;
     }
 
-    public Character getRol() {
+    public String getRol() {
         return rol;
     }
 
-    public void setRol(Character rol) {
+    public void setRol(String rol) {
         this.rol = rol;
     }
 

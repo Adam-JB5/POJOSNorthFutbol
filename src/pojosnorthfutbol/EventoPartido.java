@@ -5,7 +5,7 @@ public class EventoPartido {
     private Integer idEvento;
     private Partido partido;
     private Jugador jugador;
-    private Character tipoEvento;
+    private String tipoEvento;
     private Integer minuto;
 
     public Integer getIdEvento() {
@@ -32,11 +32,11 @@ public class EventoPartido {
         this.jugador = jugador;
     }
 
-    public Character getTipoEvento() {
+    public String getTipoEvento() {
         return tipoEvento;
     }
 
-    public void setTipoEvento(Character tipoEvento) {
+    public void setTipoEvento(String tipoEvento) {
         this.tipoEvento = tipoEvento;
     }
 

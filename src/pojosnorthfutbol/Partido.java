@@ -10,7 +10,7 @@ public class Partido {
     private Jornada jornada;
     private Date fecha;
     private String estadio;
-    private Character estado;
+    private String estado;
     private Integer golesLocal;
     private Integer golesVisitante;
 
@@ -62,11 +62,11 @@ public class Partido {
         this.estadio = estadio;
     }
 
-    public Character getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(Character estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
 

@@ -8,7 +8,7 @@ public class Jugador {
     private Equipo equipo;
     private String nombre;
     private String apellido;
-    private Character posicion;
+    private String posicion;
     private Date fechaNacimiento;
     private String paisOrigen;
     private Integer dorsal;
@@ -45,11 +45,11 @@ public class Jugador {
         this.apellido = apellido;
     }
 
-    public Character getPosicion() {
+    public String getPosicion() {
         return posicion;
     }
 
-    public void setPosicion(Character posicion) {
+    public void setPosicion(String posicion) {
         this.posicion = posicion;
     }
 
