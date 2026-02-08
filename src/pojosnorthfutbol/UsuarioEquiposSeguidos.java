@@ -1,6 +1,8 @@
 package pojosnorthfutbol;
 
-public class UsuarioEquiposSeguidos {
+import java.io.Serializable;
+
+public class UsuarioEquiposSeguidos implements Serializable {
 
     private Usuario usuario;
     private Equipo equipo;

@@ -1,8 +1,9 @@
 package pojosnorthfutbol;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Jornada {
+public class Jornada implements Serializable {
 
     private Integer idJornada;
     private Integer numero;

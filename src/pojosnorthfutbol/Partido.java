@@ -1,8 +1,9 @@
 package pojosnorthfutbol;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Partido {
+public class Partido implements Serializable {
 
     private Integer idPartido;
     private Equipo local;

@@ -1,6 +1,8 @@
 package pojosnorthfutbol;
 
-public class EventoPartido {
+import java.io.Serializable;
+
+public class EventoPartido implements Serializable {
 
     private Integer idEvento;
     private Partido partido;

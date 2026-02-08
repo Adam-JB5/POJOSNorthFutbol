@@ -5,11 +5,13 @@
  */
 package pojosnorthfutbol;
 
+import java.io.Serializable;
+
 /**
  *
  * @author adamj
  */
-public class ExcepcionNF extends Exception {
+public class ExcepcionNF extends Exception implements Serializable {
 
     private String sentenciaSQL;
     private int codigoErrorBD;

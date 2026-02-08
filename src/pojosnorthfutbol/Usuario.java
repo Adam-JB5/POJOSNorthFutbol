@@ -1,6 +1,8 @@
 package pojosnorthfutbol;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
 
     private Integer idUsuario;
     private String nombre;
